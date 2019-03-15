@@ -627,8 +627,6 @@ paths:
         '200':
           content:
             application/json:
-              '204': No Content
-              description: Consignment
               schema:
                 items: {$ref: '#/components/schemas/Consignment'}
                 type: array
@@ -642,13 +640,11 @@ paths:
         description: Consignment
         required: true
       responses:
-        '200':
+        '201':
           content:
             application/json:
-              '204': No Content
-              description: Consignment
               schema: {$ref: '#/components/schemas/Consignment'}
-          description: OK
+          description: Created
   /Consignments/{id}:
     delete:
       description: Delete an existing Consignment.
@@ -659,7 +655,7 @@ paths:
         required: true
         schema: {type: string}
       responses:
-        '204': {'204': No Content, description: Consignment deleted}
+        '204': {description: No Content}
     get:
       description: Get a single Consignment by Id.
       parameters:
@@ -672,8 +668,6 @@ paths:
         '200':
           content:
             application/json:
-              '204': No Content
-              description: Consignment
               schema: {$ref: '#/components/schemas/Consignment'}
           description: OK
     put:
@@ -694,8 +688,6 @@ paths:
         '200':
           content:
             application/json:
-              '204': No Content
-              description: Consignment
               schema: {$ref: '#/components/schemas/Consignment'}
           description: OK
   /Voyages:
@@ -706,8 +698,6 @@ paths:
         '200':
           content:
             application/json:
-              '204': No Content
-              description: Voyage
               schema:
                 items: {$ref: '#/components/schemas/Voyage'}
                 type: array
@@ -725,8 +715,6 @@ paths:
         '200':
           content:
             application/json:
-              '204': No Content
-              description: Voyage
               schema: {$ref: '#/components/schemas/Voyage'}
           description: OK
 servers: []
