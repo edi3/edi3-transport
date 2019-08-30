@@ -43,8 +43,15 @@ This Specification is free software; you can redistribute it and/or modify it un
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" 
 in this document are to be interpreted as described in RFC 2119.
 
-# Billing Process
+## Contexts
 
+### Consignment
+
+{% include_relative contexts/Consignment.md %}
+
+### Transport Equipment
+
+{% include_relative contexts/TransportEquipment.md %}
 
 
 ## State Lifecycle
