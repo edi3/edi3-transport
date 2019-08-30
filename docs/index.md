@@ -49,7 +49,7 @@ in this document are to be interpreted as described in RFC 2119.
 
 {% include_relative contexts/Consignment.md %}
 
-### Transport Equipment
+### TransportEquipment
 
 {% include_relative contexts/TransportEquipment.md %}
 
