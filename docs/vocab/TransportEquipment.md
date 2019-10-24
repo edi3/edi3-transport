@@ -5,3 +5,4 @@ layout: default
 | -------- | --------- | -------- | -------- |
 | Identification | *Identifier* | A unique identifier for this piece of transport equipment. | |
 | Contained | *Consignment* | A consignment contained in this piece of transport equipment. | [Consignment](Consignment) |
+
