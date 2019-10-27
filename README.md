@@ -1,13 +1,17 @@
 # edi3 Transport Domain Specification
 
- * [Version 1.0](/docs/1.0/index.md)
- 
-Specification: [Transport Domain 1.0](http://edi3.org/specs/edi3-transport/1.0/)
+[Specification](http://edi3.org/specs/edi3-transport/develop/) (latest working draft)
 
-Community discussion/support: [edi3.org](http://edi3.org)
+[Project administration](https://github.com/edi3/edi3-transport/wiki)
 
-Open source reference implementation: 
+[Mailing List](https://groups.google.com/a/edi3.org/forum/#!forum/transport/join)
 
-Test suite: 
+[Discussion channel](https://edi3.slack.com/messages/spec-transport/) (slack channel)
 
-Live test endpoint: 
+Reference implementation: Not yet available
+
+Test suite: Not yet available
+
+Live test endpoint: Not yet available
+
+[How to contribute](https://edi3.org/github/)
